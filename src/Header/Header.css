@@ -1,0 +1,51 @@
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+select{
+    width: auto;   
+    height: auto;
+    padding: 0;    
+    border: none; 
+    background: transparent;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+ul li{
+    margin: 1rem;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.header-list{
+    display: flex;
+    justify-content: space-between;
+}
+
+.login-button{
+    height: 3rem;
+    width: 4rem;
+    border-color: black;
+    border-radius: 10px;
+}
+
+.start-your-business-button{
+    color: white;
+    height: 3rem;
+    width: 9rem;
+    background-color: black;
+    border-color: black;
+    border-radius: 10px;
+}
+
+.start-your-business-button:hover{
+    background: linear-gradient(to right, rgb(199, 111, 210), rgb(229, 112, 180));
+    border: none;
+}

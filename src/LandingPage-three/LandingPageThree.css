@@ -1,0 +1,30 @@
+.landing-page-three{
+    padding: 25rem;
+}
+
+.dashboard-content{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.dashboard-heading-one {
+    color: rgb(44, 44, 226);
+    font-weight: 600;
+    margin: 0;
+}
+
+.dashboard-heading-two span {
+    background: linear-gradient(to right, rgb(106, 23, 239), rgb(228, 66, 161));
+    -webkit-background-clip: text;
+    color: transparent;
+    margin-bottom: 2rem;
+}
+
+.dashboard-description{
+    margin-bottom: 2.5rem;
+    font-weight: 600;
+    color: black;
+}

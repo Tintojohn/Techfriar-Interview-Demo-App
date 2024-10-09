@@ -1,0 +1,50 @@
+.landing-page-two {
+    text-align: center;
+    background-color: aliceblue;
+    height: 65rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.dashboard-image{
+    position: relative;
+    top: -15rem;
+}
+
+.dashboard-content{
+    margin-top: -5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.dashboard-heading-one {
+    color: rgb(44, 44, 226);
+    font-weight: 600;
+    margin: 0;
+}
+
+.dashboard-heading-two span {
+    background: linear-gradient(to right, rgb(106, 23, 239), rgb(228, 66, 161));
+    -webkit-background-clip: text;
+    color: transparent;
+    margin-bottom: 2rem;
+}
+
+.dashboard-description{
+    margin-bottom: 2.5rem;
+    font-weight: 600;
+    color: black;
+}
+
+.start-business-button{
+    color: white;
+    font-size: 1em;
+    height: 3rem;
+    width: 12rem;
+    background-color: black;
+    border-color: black;
+    border-radius: 10px;
+}

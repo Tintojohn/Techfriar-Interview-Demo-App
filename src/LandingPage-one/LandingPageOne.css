@@ -1,0 +1,82 @@
+.landingpage-one{
+    display: flex;
+    justify-content: space-around;
+    height: 70rem;
+}
+
+input {
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 16px;
+  }
+
+  span{
+    background-color: white;
+  }
+  .getstarted-button{
+    color: white;
+    height: 3rem;
+    width: 7rem;
+    border: none;
+    outline: none;
+    background: linear-gradient(to right, rgb(199, 111, 210), rgb(229, 112, 180));
+    border-radius: 10px;
+  }
+
+  .content-one{
+    margin-top: 9rem;
+    margin-left: 10rem;
+  }
+
+  .content-two{
+    position: relative;
+    margin-top: 10rem;
+    margin-right: 10rem;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 1rem;
+    padding-top: 0.5rem;
+    height: 28rem;
+    width: 23rem;
+    background-color: white;
+    border-radius: 10px;
+  }
+
+  .content-three{
+    position: absolute;
+    top: 20rem;
+    right: 19rem;
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 1rem;
+    padding-top: 0.3rem;
+    height: 10rem;
+    width: 10rem;
+    background: linear-gradient(to right, rgb(51, 54, 138), rgb(36, 25, 89));
+    border-radius: 10px;
+  }
+
+  .heading{
+    font-size: 4em;
+    font-weight: 700;
+    margin: 2rem;
+  }
+
+  .description{
+    font-size: 1em;
+    margin: 2rem;
+  }
+
+  .company-name-input{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 3rem;
+    width: 28rem;
+    background-color: white;
+    border-radius: 10px;
+    margin: 2rem;
+    padding: 0.3rem;
+  }
